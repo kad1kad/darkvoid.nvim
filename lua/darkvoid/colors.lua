@@ -13,18 +13,18 @@ M.config = {
 		line_nr = "#404040",
 		visual = "#303030",
 		comment = "#585858",
-		string = "#deecfc",
-		func = "#f7e3ba",
-		constant = "#b2d8d8",
+		string = "#c7fff3",
+		func = "#FFBE89", -- changed
 		kw = "#f1f1f1",
-		identifier = "#b1b1b1",
+		identifier = "#c7ffc9",
 		type = "#a1a1a1",
 		type_builtin = "#c5c5c5",
 		search_highlight = "#1bfd9c",
-		operator = "#b1fcdc",
+		operator = "#1bfd9c",
 		bracket = "#e6e6e6",
 		preprocessor = "#6a7a8a",
 		bool = "#66b2b2",
+		constant = "#b2d8d8",
 		glow_color = "#1bfd9c",
 
 		-- enable or disable specific plugin highlights
