@@ -13,8 +13,9 @@ M.config = {
 		line_nr = "#404040",
 		visual = "#303030",
 		comment = "#585858",
-		string = "#d1d1d1",
-		func = "#e1e1e1",
+		string = "#cce6d6",
+		func = "#edb472",
+		constant = "#b2d8d8",
 		kw = "#f1f1f1",
 		identifier = "#b1b1b1",
 		type = "#a1a1a1",
@@ -24,7 +25,6 @@ M.config = {
 		bracket = "#e6e6e6",
 		preprocessor = "#6a7a8a",
 		bool = "#66b2b2",
-		constant = "#b2d8d8",
 		glow_color = "#1bfd9c",
 
 		-- enable or disable specific plugin highlights
