@@ -15,10 +15,10 @@ function M.setup(colors, config)
 	local lualine_theme = {
 		normal = {
 			a = {
-				bg = config.transparent and "NONE" or colors.bool,
+				bg = config.transparent and "NONE" or colors.func,
 				fg = config.transparent and colors.added or colors.bg,
 			},
-			b = { bg = common_bg, fg = colors.bool },
+			b = { bg = common_bg, fg = colors.func },
 			c = { bg = colors.line_nr, fg = colors.bracket },
 			x = { bg = colors.line_nr, fg = colors.bracket, gui = glow_fg },
 		},
@@ -26,7 +26,7 @@ function M.setup(colors, config)
 			a = { bg = common_bg, fg = colors.search_highlight, gui = glow_fg },
 			b = { bg = colors.bg, fg = colors.type },
 			c = { bg = colors.line_nr, fg = colors.bracket, gui = glow_fg },
-			x = { bg = colors.line_nr, fg = colors.bool },
+			x = { bg = colors.line_nr, fg = colors.func },
 		},
 		visual = {
 			a = { bg = common_bg, fg = colors.title, gui = glow_fg },
@@ -38,13 +38,13 @@ function M.setup(colors, config)
 			a = { bg = common_bg, fg = colors.search_highlight, gui = glow_fg },
 			b = { bg = colors.bg, fg = colors.type },
 			c = { bg = colors.line_nr, fg = colors.bracket, gui = glow_fg },
-			x = { bg = colors.line_nr, fg = colors.bool },
+			x = { bg = colors.line_nr, fg = colors.func },
 		},
 		command = {
 			a = { bg = common_bg, fg = colors.search_highlight, gui = glow_fg },
 			b = { bg = colors.bg, fg = colors.type },
 			c = { bg = colors.line_nr, fg = colors.bracket, gui = glow_fg },
-			x = { bg = colors.line_nr, fg = colors.bool },
+			x = { bg = colors.line_nr, fg = colors.func },
 		},
 		inactive = {
 			a = { bg = colors.eob, fg = colors.string, gui = glow_fg },
