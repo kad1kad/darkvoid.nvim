@@ -16,7 +16,7 @@ M.config = {
 		string = "#c7fff3",
 		func = "#1bfd9c", -- changed
 		kw = "#f1f1f1",
-		identifier = "#b1b1b1",
+		identifier = "#ebfae3",
 		type = "#a1a1a1",
 		type_builtin = "#c5c5c5",
 		search_highlight = "#1bfd9c",
@@ -107,7 +107,7 @@ function M.setup(user_config)
 		-- have to define treesitter based functions as well for glow effect
 		["@function"] = { fg = colors.func },
 		["@keyword"] = { fg = colors.kw },
-		["@identifier"] = { fg = colors.identifier },
+    ["@identifier"] = { fg = colors.identifier },
 		["@operator"] = { fg = colors.operator },
 
 		-- EndOfBuffer
